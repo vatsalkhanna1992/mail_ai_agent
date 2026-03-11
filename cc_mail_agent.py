@@ -13,4 +13,4 @@ def summarize_my_emails(count: int = 5):
     return summary
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="http")
